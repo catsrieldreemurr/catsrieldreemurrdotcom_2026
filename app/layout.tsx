@@ -1,14 +1,19 @@
-import { Geist, Geist_Mono } from "next/font/google"
+import { Raleway } from "next/font/google"
+import type { Metadata } from "next";
 
 import "./globals.css"
-import { cn } from "@/lib/utils";
 
-const geist = Geist({subsets:['latin'],variable:'--font-sans'})
-
-const fontMono = Geist_Mono({
+const fontRaleway = Raleway({
   subsets: ["latin"],
-  variable: "--font-mono",
 })
+
+
+export const metadata: Metadata = {
+  title: "Fern's Silly Site",
+  description: "Welcome to Fern's Silly Website!",
+};
+
+
 
 export default function RootLayout({
   children,
@@ -19,7 +24,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={cn("antialiased", fontMono.variable, "font-sans", geist.variable)}
+      className={fontRaleway.className}
     >
       <body>
         {children}

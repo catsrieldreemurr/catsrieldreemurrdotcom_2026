@@ -127,3 +127,7 @@
     @apply font-sans;
     }
 }
+
+@theme{
+  --color-nullscapeGreen: #102626;
+}
