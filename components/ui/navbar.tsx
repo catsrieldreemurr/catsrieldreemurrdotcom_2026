@@ -1,4 +1,4 @@
-import SetSubheader from "../functions/subheader";
+import { SetSubheader, SetHeaderRandomChance } from "../functions/randomTexts";
 import { Popover, PopoverContent, PopoverTrigger } from "./popover";
 import Typography from "./typography";
 import { Button } from "./button";
@@ -7,8 +7,8 @@ import { MenuIcon } from "lucide-react";
 export default function Navbar(){
   return (
     <nav className="bg-nullscapeGreen p-5 flex flex-row justify-between items-center w-[100%]">
-      <div className="flex flex-col justify-center items-center">
-        <Typography variant="h1" isBold>CatsrielDreemurr</Typography>
+      <div className="flex flex-col justify-center items-start">
+        <Typography variant="h1" isBold>{SetHeaderRandomChance()}</Typography>
         <Typography>{SetSubheader()}</Typography>
       </div>
       
