@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function HeroComponent(){
     return (
-        <div className="grid sm:grid-cols-2 grid-rows-1 w-screen h-100 sm:h-160 justify-center items-center">
+        <div className="grid sm:grid-cols-2 grid-rows-1 w-screen h-140 sm:h-200 justify-center items-center">
             <div className="grid justify-center sm:justify-end">
                 <Image src={"/shootsyou3.png"} loading="eager" className="h-full w-auto" alt="Fern waves at you" height={500} width={500}/>
             </div>
