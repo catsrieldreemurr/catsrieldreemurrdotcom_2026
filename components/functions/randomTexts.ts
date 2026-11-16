@@ -9,7 +9,7 @@ const quotes = [
   "κοιτάξτε πίσω στο",
   "sillymaxxing streamer",
   "Stand still briefly, before it wakes.",
-  
+
   "YOU REMIND ME OF A FLOWER THAT HAD REACHED FULL BLOOM IN THE GARDENS.",
   "IT CHASED THE IMPOSSIBLE BY BLOSSOMING UNDER THE HARSHEST CONDITIONS.",
   "YET IT WAS THAT PRIDE THAT CAUSED IT TO ROT FROM THE INSIDE OUT.",
@@ -37,6 +37,23 @@ const altNames = [
   "Purrfectiu"
 ]
 
+const domaspText = [
+  "How quickly the tide turns.",
+  "The slow death. Unforeseen. Unforgiving.",
+  "Remind yourself that overconfidence is a slow and insidious killer.",
+  "The mind cannot hope to withstand such an assault.",
+  "Fear and frailty finally claim their due.",
+  "Madness, our old friend.",
+  "Frustration, and fury. More destructive than a hundred cannons.",
+  "Mind that such missteps are the exception, and not the rule.",
+  "More blood soaks the soil, feeding the evil therein.",
+  "This is no place for the weak or foolhardy.",
+  "More dust. More ashes. More disappointment.",
+  "Begone, fiend!",
+  "Annihilated.",
+  "Destroyed."
+]
+
 export function SetSubheader() 
 {
   const randomQuoteIndex = Math.floor(Math.random() * quotes.length);
@@ -53,4 +70,10 @@ export function SetHeaderRandomChance()
   else {
     return "CatsrielDreemurr";
   }
+}
+
+export function RandomDomaspVoiceline(){
+  const random = Math.floor(Math.random() * domaspText.length);
+
+  return domaspText[random];
 }
