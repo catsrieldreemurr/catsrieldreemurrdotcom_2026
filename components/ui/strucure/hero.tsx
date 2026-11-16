@@ -16,10 +16,10 @@ export default function HeroComponent(){
                   <Typography>Programmer / Editor / Streamer</Typography>
                 </div>
 
-                <div className="grid grid-cols-2 sm:grid-cols-3 content-center gap-6">
+                <div className="grid grid-cols-2 sm:grid-cols-3 content-center gap-6 mt-5">
                   <SocialsLink icon="/twitch.png" socialsDestination="https://twitch.tv/purrfectiu">Twitch</SocialsLink>
                   <SocialsLink icon="/youtube.png" socialsDestination="https://www.youtube.com/@CatsrielDreemurr">Main Channel</SocialsLink>
-                  <SocialsLink icon="/youtubegaming.png" socialsDestination="https://www.youtube.com/@TwoMuchCatsriel">VODS Channel</SocialsLink>
+                  <SocialsLink className="col-span-2 sm:col-span-1" icon="/youtubegaming.png" socialsDestination="https://www.youtube.com/@TwoMuchCatsriel">VODS Channel</SocialsLink>
                 </div>
             </div>
         </div>

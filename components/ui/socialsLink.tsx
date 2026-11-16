@@ -12,7 +12,7 @@ interface SetProps{
 export default function SocialsLink( {children, icon, socialsDestination, className}:SetProps ){
   return (
     <a href={socialsDestination} className={className}>
-      <Button className="p-5">
+      <Button className="p-3 w-full h-full">
         <Image className="brightness-0 invert" src={icon} alt={socialsDestination} height={25} width={25}/>
         <Typography>{children}</Typography>
       </Button>
