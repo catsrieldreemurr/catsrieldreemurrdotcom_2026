@@ -8,10 +8,14 @@ const quotes = [
   "Also try Doors!",
   "κοιτάξτε πίσω στο",
   "sillymaxxing streamer",
-  "Stand still briefly.",
-  "Before it wakes.",
-  "YOU SHALL WILT IN THIS DANCE WITH ME.",
+  "Stand still briefly, before it wakes.",
+  
   "YOU REMIND ME OF A FLOWER THAT HAD REACHED FULL BLOOM IN THE GARDENS.",
+  "IT CHASED THE IMPOSSIBLE BY BLOSSOMING UNDER THE HARSHEST CONDITIONS.",
+  "YET IT WAS THAT PRIDE THAT CAUSED IT TO ROT FROM THE INSIDE OUT.",
+  "EVEN IF YOU BELIEVE IN YOUR OWN PETALS",
+  "YOU SHALL WILT IN THIS DANCE WITH ME.",
+
   "Fern found their flame.",
   "Fern attempted to use Kolóna as a Christmas decoration.",
   "Fern was immolated.",

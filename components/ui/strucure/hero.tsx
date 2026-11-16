@@ -1,5 +1,6 @@
 import Typography from "@/components/ui/typography";
 import Image from "next/image";
+import SocialsLink from "../socialsLink";
 
 export default function HeroComponent(){
     return (
@@ -10,10 +11,18 @@ export default function HeroComponent(){
             
             <div className="text-center grid justify-start">
                 <div className="bg-black/50 p-5 rounded-sm">
-                <Typography variant="h1" isBold>Fern Was Here!</Typography>
-                <Typography variant="h3">just a a silly person on the internet ^.^</Typography>
-                <Typography>Programmer / Editor / Streamer</Typography>
+                  <Typography variant="h1" isBold>Fern Was Here!</Typography>
+                  <Typography variant="h3">just a a silly person on the internet ^.^</Typography>
+                  <Typography>Programmer / Editor / Streamer</Typography>
                 </div>
+
+                
+                <div className="flex justify-center mt-5">
+                  <SocialsLink icon="/twitch.png" socialsDestination="https://twitch.tv/purrfectiu">Twitch</SocialsLink>
+                  <SocialsLink icon="/youtube.png" socialsDestination="https://www.youtube.com/@CatsrielDreemurr">Main Channel</SocialsLink>
+                  <SocialsLink icon="/youtubegaming.png" socialsDestination="https://www.youtube.com/@TwoMuchCatsriel">VODS Channel</SocialsLink>
+                </div>
+                
             </div>
         </div>
     )
