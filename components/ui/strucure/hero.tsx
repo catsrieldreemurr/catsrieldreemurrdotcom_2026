@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function HeroComponent(){
     return (
-        <div className="grid sm:grid-cols-2 grid-rows-1 w-screen h-140 sm:h-200 justify-center items-center">
-            <div className="grid justify-center sm:justify-end">
-                <Image src={"/shootsyou3.png"} loading="eager" className="h-full w-auto" alt="Fern waves at you" height={500} width={500}/>
+        <div className="grid sm:grid-cols-2 grid-rows-1 w-screen h-140 sm:h-200 md:h-150 lg:h-150 2xl:md:h-200 justify-center items-center">
+            <div className="flex justify-center sm:justify-end">
+                <Image src={"/shootsyou3.png"} loading="eager" className="h-[25rem] w-auto" alt="Fern waves at you" height={600} width={600}/>
             </div>
             
             <div className="text-center grid justify-start">
