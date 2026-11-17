@@ -34,7 +34,8 @@ const altNames = [
   "Nebula",
   "TwoMuchCatsriel",
   "FernWasHere",
-  "Purrfectiu"
+  "Purrfectiu",
+  "Kolóna"
 ]
 
 const domaspText = [

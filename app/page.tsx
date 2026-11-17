@@ -8,7 +8,7 @@ export default function Main(){
       <HeroComponent/>
 
       <div className="bg-nullscapeGreen w-screen justify-center items-center flex p-5">
-        <Typography variant="h2">Hey guys, It's me Flowery</Typography>
+        <Typography>Typography</Typography>
       </div>
     </ContentContainer>
   )
