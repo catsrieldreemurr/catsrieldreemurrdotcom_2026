@@ -2,7 +2,9 @@ import { SetSubheader, SetHeaderRandomChance } from "../functions/randomTexts";
 import { Popover, PopoverContent, PopoverTrigger } from "./popover";
 import Typography from "./typography";
 import { Button } from "./button";
-import { MenuIcon } from "lucide-react";
+import { HeaterIcon, HouseIcon, MenuIcon } from "lucide-react";
+
+import NavbarUrl from "./navbarLink";
 
 export default function Navbar(){
   return (
@@ -14,9 +16,8 @@ export default function Navbar(){
       
 
       <div className="gap-5 hidden sm:flex text-white hidden">
-        <p>test</p>
-        <p>test</p>
-        <p>test</p>
+        <NavbarUrl path="/" icon={<HouseIcon/>}>Home</NavbarUrl>
+        <NavbarUrl path="/boundaries" icon={<HeaterIcon/>}>Boundaries</NavbarUrl>
       </div>
       
       <div className="flex sm:hidden">
@@ -28,7 +29,8 @@ export default function Navbar(){
             </Button>
           }/>
           <PopoverContent>
-            <h1>test</h1>
+            <NavbarUrl darkmode path="/" icon={<HouseIcon/>}>Home</NavbarUrl>
+            <NavbarUrl darkmode path="/boundaries" icon={<HeaterIcon/>}>Boundaries</NavbarUrl>
           </PopoverContent>
         </Popover>
       </div>
