@@ -8,7 +8,7 @@ export default function Main(){
     <ContentContainer>
       <HeroComponent/>
 
-      <div className="bg-nullscapeGreen justify-center items-center flex flex-col w-full gap-5">
+      <div className="bg-nullscapeGreen justify-center items-center flex flex-col w-full gap-5 p-5">
         <Typography variant="h2" isBold style="underline pt-5">My Favourite Video</Typography>
         <Typography variant="subtitle" isCentered>{"This is my video that I've made on my channel! I feel like this is the best I have to offer!"}</Typography>
         <YoutubeEmbed embedLink="https://www.youtube.com/embed/yRZi8leO2LE?si=aAJQ6MIneBFq95ME"/>
