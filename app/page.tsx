@@ -15,7 +15,7 @@ export default function Main(){
 
         <Typography variant="h2" isBold style="underline pt-5">My Favourite VOD</Typography>
         <Typography variant="subtitle" isCentered>This is my favourite Twitch VOD! Feel free to drop by my Twitch to catch these live!</Typography>
-        <YoutubeEmbed embedLink="https://www.youtube.com/embed/shYcW2Wi8KI?si=sBTLFAwwz04A07Xb"/>
+        <YoutubeEmbed embedLink="https://www.youtube.com/embed/P1wsMHtqVEM?si=y8AQwZD2TkFqcgJp"/>
       </div>
     </ContentContainer>
   )
