@@ -6,11 +6,12 @@ interface TypographyProps {
     isCentered?: boolean
     variant?: 'h1' | 'h2' | 'h3' | 'p' | 'subtitle'
     style?: string
+    darkmode?: boolean
 }
 
-export default function Typography({ children, isBold, isCentered, variant, style }: TypographyProps) {
+export default function Typography({ children, isBold, isCentered, variant, style, darkmode}: TypographyProps) {
     const variableStyles = `${isBold && 'font-bold'} ${isCentered && 'text-center'} ${style}`
-    const commonStyles = 'text-white'
+    const commonStyles = darkmode ? 'text-black' : 'text-white';
 
     switch (variant) {
         case 'h1':

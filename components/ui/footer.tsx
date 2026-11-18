@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Typography from "./typography";
-import NavbarUrl from "./navbarLink";
-import { HouseIcon } from "lucide-react";
+import { HeaterIcon, HouseIcon } from "lucide-react";
+import FooterbarLink from "./footerbarLink";
 
 export default function FooterBar(){
   return(
@@ -16,8 +16,9 @@ export default function FooterBar(){
       </div>
 
       <div className="p-5">
-        <Typography variant="h1" isBold>Pages</Typography>
-        <NavbarUrl icon={<HouseIcon/>} path="/">Home</NavbarUrl>
+        <Typography variant="h1" isBold style="p-5 underline">Pages</Typography>
+        <FooterbarLink icon={<HouseIcon/>} path="/">Home</FooterbarLink>
+        <FooterbarLink icon={<HeaterIcon/>} path="/boundaries">Boundaries</FooterbarLink>
       </div>
     </footer>
   )
