@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Typography from "./typography";
-import { HeaterIcon, HouseIcon } from "lucide-react";
+import { FolderIcon, HeaterIcon, HouseIcon } from "lucide-react";
 import FooterbarLink from "./footerbarLink";
 
 export default function FooterBar(){
@@ -19,6 +19,7 @@ export default function FooterBar(){
         <Typography variant="h1" isBold style="p-5 underline">Pages</Typography>
         <FooterbarLink icon={<HouseIcon/>} path="/">Home</FooterbarLink>
         <FooterbarLink icon={<HeaterIcon/>} path="/boundaries">Boundaries</FooterbarLink>
+        <FooterbarLink icon={<FolderIcon/>} path="/projects">Projects</FooterbarLink>
       </div>
     </footer>
   )
