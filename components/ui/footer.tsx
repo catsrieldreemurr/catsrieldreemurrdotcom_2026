@@ -5,7 +5,7 @@ import FooterbarLink from "./footerbarLink";
 
 export default function FooterBar(){
   return(
-    <footer className="bg-teal-950 w-full grid grid-cols-1 sm:grid-cols-3 place-items-center text-center text-white">
+    <footer className="bg-teal-950 w-full grid grid-cols-1 sm:grid-cols-3 place-items-center text-center text-white" >
       <div className="p-5">
         <Image src={"/signature.png"} alt="fern baxxter" height={200} width={200}></Image>
       </div>
